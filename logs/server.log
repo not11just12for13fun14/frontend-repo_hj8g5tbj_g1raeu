@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 199 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.35.151:3000/
+8:15:56 PM [vite] warning: The character ">" is not valid inside a JSX element
+43 |                </div>
+44 |                <div>
+45 |                  <label className="block text-sm text-slate-600 mb-1">>100x</label>
+   |                                                                       ^
+46 |                  <input type="number" step="0.1" value={interest.interest_above_100_multiplier} onChange={e=>setInterest({...interest, interest_above_100_multiplier: parseFloat(e.target.value)})} className="w-full border rounded px-2 py-1" />
+47 |                </div>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/AdminPanel.jsx
